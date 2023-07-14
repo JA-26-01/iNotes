@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body
+{
+  background-color:rgb(223, 183, 223);
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  overflow:scroll;
+  overflow-y: scroll; 
+  overflow-x:hidden;
+  scrollbar-width: none;
+  height:100%;
+}
+
+::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.heading
+{
+  color:white;
+  position:relative;
+  left:30px;
+  top:10px;
+  font-family: cursive;
+}
+
+.formdesign
+{
+  width:600px;
+  height:400px;
+  padding:40px;
+  border: 1px solid white;
+  left:450px;
+  position: relative;
+  top:100px;
+  color:white;
+}
+
+.formdesign .fa-solid
+{
+  color:white;
+  float:left;
+  margin-right:20px;
+  margin-top:5px
+}
+
+.formdesign input
+{
+ border:none;
+ outline:none;
+ background: none;
+ width:90%;
+ color:white;
+ user-select: none;
+ border-bottom:1px solid white;
+}
+
+.formdesign input:focus
+{
+  background: none;
+  -webkit-tap-highlight-color: transparent; 
+  outline: 0;
+  color:white;
+}
+
+.formdesign .submit
+{
+  width:300px;
+  height:30px;
+  border: 1px solid white;
+  background: none;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.formdesign .submit:hover
+{
+  background: white;
+  opacity: 0.6;
+  color:black
+}
+
+
+.formdesign .submit2
+{
+  width:300px;
+  height:30px;
+  border: 1px solid white;
+  background: none;
+  color:white;
+  margin-bottom: 20px;
+  left:190px;
+  position: relative;
+  top:20px
+}
+
+
+.formdesign .submit2:hover
+{
+  background: white;
+  opacity: 0.6;
+  color:black
+}
+
+
+.formdesign .formbody
+{
+  margin-top:50px
+}
+
+.formdesign .formbottom
+{
+  margin-top:50px;
+  left:100px;
+  position: relative;
+}
+
+.formdesign .signup 
+{
+  position: relative;
+  left:50px;
+  top:40px
+}
+
+.formdesign .signup a
+{
+  color:white;
+}
+
+
+.navbar,
+.navbar-collapse {
+  flex-direction: column;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column;
+}
+
+.navbar ul
+{
+  top:280px;
+  position: relative;
+}
+
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 100vh;
+    background:url('./Frame2.png') no-repeat;
+  }
+}
+
+
+.modal-body
+{
+  padding:30px
+}
+
+.modal-body input
+{
+  border: none;
+}
+
+.modal-body .title
+{
+  font-size:30px;
+  font-weight: 400;
+}
+
+.modal-body .desc
+{
+  margin:50px 0px
+}
+
+
+.modal-body .tag
+{
+  margin-left:15px;
+  padding: 0px;
+  background-color: rgb(226, 189, 43);
+  width:50px;
+  text-align: center;
+}
+
+.modal-footer .submit
+{
+  background-color: rgb(187, 154, 187);
+  border:2px solid white;
+}
+
+.modal-footer .submit:hover
+{
+  background-color: rgb(229, 183, 229);
+  border:2px solid white;
+}
+
+.card
+{
+  height:200px;
+  border-radius:10px;
+  margin-right: 30px;
+}
+
+.card-body .tag
+{
+  width:70px;
+  height:30px;
+  text-align: center;
+  background-color:burlywood;
+  border-radius: 3px;
+  font-weight: 500px;
+  position: absolute;
+  left:20px;
+  top:150px;
+}
+
+.card-body .options
+{
+  position:absolute;
+  left:305px;
+  top:150px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+
+.date
+{
+  position: relative;
+  left:70%;
+  width:100px;
+}
+
+.logout
+{
+  color:rgb(162, 125, 162);
+}
+
+.btn-create
+{
+  background-color:burlywood;
+  width:100px;
+}
+
+.btn-create:hover
+{
+  background-color: rgb(205, 177, 136);
+}
+
+
+.formdesign2
+{
+  width:700px;
+  height:400px;
+  padding:40px;
+  left:250px;
+  position: relative;
+  border:0.5px solid white;
+  top:80px;
+  color:white;
+}
+
+.formdesign .fa-solid
+{
+  color:white;
+  float:left;
+  margin-right:20px;
+  margin-top:5px
+}
+
+.formdesign input
+{
+ border:none;
+ outline:none;
+ background: none;
+ width:90%;
+ color:white;
+ user-select: none;
+ border-bottom:1px solid white;
+}
+
+.formdesign input:focus
+{
+  background: none;
+  -webkit-tap-highlight-color: transparent; 
+  outline: 0;
+  color:white;
+}
+
+.formdesign .submit
+{
+  width:300px;
+  height:30px;
+  border: 1px solid white;
+  background: none;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.formdesign .submit:hover
+{
+  background: white;
+  opacity: 0.6;
+  color:black
+}
+
+
+.formdesign .submit2
+{
+  width:300px;
+  height:30px;
+  border: 1px solid white;
+  background: none;
+  color:white;
+  margin-bottom: 20px;
+  left:190px;
+  position: relative;
+  top:20px
+}
+
+
+.formdesign .submit2:hover
+{
+  background: white;
+  opacity: 0.6;
+  color:black
+}
+
+
+.formdesign .formbody
+{
+  margin-top:50px
+}
+
+.formdesign .formbottom
+{
+  margin-top:50px;
+  left:100px;
+  position: relative;
+}
+
+.formdesign .signup 
+{
+  position: relative;
+  left:50px;
+  top:40px
+}
+
+.formdesign .signup a
+{
+  color:white;
+}
